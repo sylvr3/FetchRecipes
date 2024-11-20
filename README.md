@@ -38,7 +38,7 @@ I believe the weakest part of my project is the error handling. Although I did p
 
 ### External Code and Dependencies: Did you use any external code, libraries, or dependencies?
 
-No external libraries or dependencies were used in this project. I implemented everything using native Apple frameworks including Foundation, SwiftUI, and Swift concurrency. (cap?)
+No external libraries or dependencies were used in this project. I implemented everything using native Apple frameworks including Foundation, SwiftUI, and Swift concurrency.
 
 ### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
 
