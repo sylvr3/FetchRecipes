@@ -52,7 +52,7 @@ Actors
 - RecipeListActor.swift: Used to manage state safely using Swift concurrency.
 
 Models
-- Recipe.swift: Defines the properties of a recipe (name, photo URL, cuisine type, source URL, and YouTube URL).
+- Recipe.swift: Defines the properties of a recipe (name, photo URL, cuisine type, source URL, YouTube URL, etc).
 
 ViewModels
 - RecipeListViewModel.swift: Handles the business logic and interacts with the NetworkService to fetch recipe data.
