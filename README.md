@@ -6,17 +6,13 @@ In the root directory of the project, open the FetchRecipes.xcodeproj file using
 
 I prioritized and focused on the following areas:
 
-1. Efficient Data Handling
-   I focused on implementing a solution that minimizes network usage. This includes image caching, which is used to avoid redundant, unncessary downloads and improve app performance. Images are only loaded when needed. This improves responsiveness, as well as speed and bandwidth usage.
+1. Efficient Data Handling - I focused on implementing a solution that minimizes network usage. This includes image caching, which is used to avoid redundant, unncessary downloads and improve app performance. Images are only loaded when needed. This improves responsiveness, as well as speed and bandwidth usage.
 
-2. Swift Concurrency
-   I used Swift's concurrency model and asynchronous functions (async/await) to make the network requests. This ensures that any updates made to the UI are performed on the main thread without blocking the UI.
+2. Swift Concurrency - I used Swift's concurrency model and asynchronous functions (async/await) to make the network requests. This ensures that any updates made to the UI are performed on the main thread without blocking the UI.
 
-3. Error Handling
-   I made sure that the app handles malformed data or empty responses. Instead of showing an unhandled crash or an empty list of recipes without context, the app shows an error message for malformed data and shows a "No recipes are available" message when the data is empty.
+3. Error Handling - I made sure that the app handles malformed data or empty responses. Instead of showing an unhandled crash or an empty list of recipes without context, the app shows an error message for malformed data and shows a "No recipes are available" message when the data is empty.
 
-4. UI/UX
-   I focused on making the user interface simple and intuitive. The UI consists of a list of recipes that shows the name, cuisine type, and photo. It also has a Play button that allows you to play the YouTube video associated with a particular recipe, as well as a button that says View Recipe that allows the recipe to be viewed by opening the source URL. There is a pull-to-refresh gesture to allow the user to reload the recipe list manually. Error states and empty states are handled using clear messages.
+4. UI/UX - I focused on making the user interface simple and intuitive. The UI consists of a list of recipes that shows the name, cuisine type, and photo. It also has a Play button that allows you to play the YouTube video associated with a particular recipe, as well as a button that says View Recipe that allows the recipe to be viewed by opening the source URL. There is a pull-to-refresh gesture to allow the user to reload the recipe list manually. Error states and empty states are handled using clear messages.
 
 ### Time Spent: Approximately how long did you spend working on this project? How did you allocate your time?
 
